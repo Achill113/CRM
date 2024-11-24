@@ -1,0 +1,44 @@
+version: '3.4'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: crm_sqlserver
+    environment:
+      SA_PASSWORD: "?5sAll-theRumX"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  auth_idserver:
+    build:
+      context: ./Auth
+      dockerfile: ./src/Auth.IdServer/Dockerfile
+    container_name: auth_idserver
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_URLS=http://*:80;https://*:443
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - DistributedCacheConfiguration__ConnectionString=Server=sqlserver;Database=IdServer;User=sa;Password=?5sAll-theRumX;TrustServerCertificate=True
+      - StorageConfiguration__ConnectionString=Server=sqlserver;Database=IdServer;User=sa;Password=?5sAll-theRumX;TrustServerCertificate=True
+    ports:
+      - "5001:443"
+
+  auth_idserverwebsite:
+    build:
+      context: ./Auth
+      dockerfile: ./src/Auth.IdServerWebsite/Dockerfile
+    container_name: auth_idserverwebsite
+    depends_on:
+      - auth_idserver
+    environment:
+      - ASPNETCORE_URLS=http://*:80;https://*:443
+      - ASPNETCORE_ENVIRONMENT=Docker
+    ports:
+      - "5002:443"
+
+volumes:
+  sql_data:

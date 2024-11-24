@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Auth.IdServer
+build_property.RootNamespace = Auth.IdServer
+build_property.ProjectDir = C:\Users\achil\Projects\CRM\Auth\src\Auth.IdServer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\achil\Projects\CRM\Auth\src\Auth.IdServer
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/console/Views/Authenticate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcY29uc29sZVxWaWV3c1xBdXRoZW50aWNhdGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/console/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcY29uc29sZVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/email/Views/Authenticate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcZW1haWxcVmlld3NcQXV0aGVudGljYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/email/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcZW1haWxcVmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/email/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcZW1haWxcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/mobile/Views/Authenticate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbW9iaWxlXFZpZXdzXEF1dGhlbnRpY2F0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/mobile/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbW9iaWxlXFZpZXdzXFJlZ2lzdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/mobile/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcbW9iaWxlXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/otp/Views/Authenticate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcb3RwXFZpZXdzXEF1dGhlbnRpY2F0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/otp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcb3RwXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/pwd/Views/Authenticate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNccHdkXFZpZXdzXEF1dGhlbnRpY2F0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/pwd/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNccHdkXFZpZXdzXFJlZ2lzdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/pwd/Views/Reset/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNccHdkXFZpZXdzXFJlc2V0XENvbmZpcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/pwd/Views/Reset/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNccHdkXFZpZXdzXFJlc2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/pwd/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNccHdkXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/sms/Views/Authenticate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcc21zXFZpZXdzXEF1dGhlbnRpY2F0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/sms/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcc21zXFZpZXdzXFJlZ2lzdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/sms/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcc21zXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/vp/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcdnBcVmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/vp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcdnBcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/webauthn/Views/Authenticate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcd2ViYXV0aG5cVmlld3NcQXV0aGVudGljYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/webauthn/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcd2ViYXV0aG5cVmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Areas/webauthn/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcd2ViYXV0aG5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/BackChannelConsents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja0NoYW5uZWxDb25zZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/CheckSession/EndSession.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tTZXNzaW9uXEVuZFNlc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Consents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Device/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Errors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Errors/Unexpected.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXFVuZXhwZWN0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Home/Disconnect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNjb25uZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Home/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Shared/_AuthenticateLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoZW50aWNhdGVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Shared/_CommonLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db21tb25MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/achil/Projects/CRM/Auth/src/Auth.IdServer/Views/Shared/_RegisterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWdpc3RlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

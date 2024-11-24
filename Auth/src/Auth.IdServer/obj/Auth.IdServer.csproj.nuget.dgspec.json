@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\achil\\Projects\\CRM\\Auth\\src\\Auth.IdServer\\Auth.IdServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\achil\\Projects\\CRM\\Auth\\src\\Auth.IdServer\\Auth.IdServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\achil\\Projects\\CRM\\Auth\\src\\Auth.IdServer\\Auth.IdServer.csproj",
+        "projectName": "Auth.IdServer",
+        "projectPath": "C:\\Users\\achil\\Projects\\CRM\\Auth\\src\\Auth.IdServer\\Auth.IdServer.csproj",
+        "packagesPath": "C:\\Users\\achil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\achil\\Projects\\CRM\\Auth\\src\\Auth.IdServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\achil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Community.Microsoft.Extensions.Caching.PostgreSql": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "MassTransit.SqlTransport.SqlServer": {
+              "target": "Package",
+              "version": "[8.2.5, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Negotiate": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[2.1.175, )"
+            },
+            "NeoSmart.Caching.Sqlite.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.Extensions.Caching.MySql": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "SimpleIdServer.Configuration": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.Configuration.Redis": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.Did.Key": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Console": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Email": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Federation": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Fido": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.MySQLMigrations": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Notification.Fcm": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Notification.Gotify": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Otp": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.PostgreMigrations": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Provisioning.LDAP": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Provisioning.SCIM": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Pwd": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Saml.Idp": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Sms": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.SqlServerMigrations": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.SqliteMigrations": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Store.EF": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.Swagger": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.VerifiablePresentation": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            },
+            "SimpleIdServer.IdServer.WsFederation": {
+              "target": "Package",
+              "version": "[5.0.*-*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
