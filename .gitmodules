@@ -1,0 +1,3 @@
+[submodule "Auth/Auth"]
+	path = Auth/Auth
+	url = git@github.com:Achill113/CRM.git
