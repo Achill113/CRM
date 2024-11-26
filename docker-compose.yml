@@ -1,6 +1,29 @@
-version: '3.4'
+version: '3.9'
+
+networks:
+  crm_network:
+    driver: bridge
 
 services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: nginx
+    ports:
+      - '443:443'
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./compose/certificates:/etc/nginx/certs:ro
+      - ./compose/proxy.conf:/etc/nginx/conf.d/customproxy.conf:ro
+    networks:
+      crm_network:
+        aliases:
+          - idserver.localhost.com
+          - scim.localhost.com
+          - website.localhost.com
+          - credentialissuer.localhost.com
+          - credentialissuerwebsite.localhost.com
+
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: crm_sqlserver
@@ -11,34 +34,45 @@ services:
       - "1433:1433"
     volumes:
       - sql_data:/var/opt/mssql
+    networks:
+      crm_network: null
 
-  auth_idserver:
+  idserver:
     build:
-      context: ./Auth
-      dockerfile: ./src/Auth.IdServer/Dockerfile
-    container_name: auth_idserver
+      context: .
+      dockerfile: ./Auth/src/Auth.IdServer/Dockerfile
+    container_name: idserver
     depends_on:
       - sqlserver
     environment:
-      - ASPNETCORE_URLS=http://*:80;https://*:443
-      - ASPNETCORE_ENVIRONMENT=Docker
-      - DistributedCacheConfiguration__ConnectionString=Server=sqlserver;Database=IdServer;User=sa;Password=?5sAll-theRumX;TrustServerCertificate=True
-      - StorageConfiguration__ConnectionString=Server=sqlserver;Database=IdServer;User=sa;Password=?5sAll-theRumX;TrustServerCertificate=True
-    ports:
-      - "5001:443"
+      VIRTUAL_HOST: "idserver.localhost.com"
+      ASPNETCORE_URLS: "http://*:80"
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      ASPNETCORE_ENVIRONMENT: "Docker"
+      DistributedCacheConfiguration__ConnectionString: "Server=sqlserver;Database=IdServer;User=sa;Password=?5sAll-theRumX;TrustServerCertificate=True"
+      StorageConfiguration__ConnectionString: "Server=sqlserver;Database=IdServer;User=sa;Password=?5sAll-theRumX;TrustServerCertificate=True"
+    volumes:
+      - ./Certs:/https:ro
+    networks:
+      crm_network: null
 
-  auth_idserverwebsite:
+  website:
     build:
-      context: ./Auth
-      dockerfile: ./src/Auth.IdServerWebsite/Dockerfile
-    container_name: auth_idserverwebsite
+      context: .
+      dockerfile: ./Auth/src/Auth.IdServerWebsite/Dockerfile
+    container_name: website
     depends_on:
-      - auth_idserver
+      - idserver
     environment:
-      - ASPNETCORE_URLS=http://*:80;https://*:443
-      - ASPNETCORE_ENVIRONMENT=Docker
-    ports:
-      - "5002:443"
+      VIRTUAL_HOST: "website.localhost.com"
+      ASPNETCORE_URLS : "http://*:80"
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      ASPNETCORE_ENVIRONMENT: "Docker"
+      IdServerBaseUrl: "https://idserver.localhost.com"
+    volumes:
+      - ./Certs:/https:ro
+    networks:
+      crm_network: null
 
 volumes:
   sql_data:

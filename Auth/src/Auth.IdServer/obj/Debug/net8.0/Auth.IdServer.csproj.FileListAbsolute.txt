@@ -750,3 +750,4 @@ C:\Users\achil\Projects\CRM\Auth\src\Auth.IdServer\obj\Debug\net8.0\refint\Auth.
 C:\Users\achil\Projects\CRM\Auth\src\Auth.IdServer\obj\Debug\net8.0\Auth.IdServer.pdb
 C:\Users\achil\Projects\CRM\Auth\src\Auth.IdServer\obj\Debug\net8.0\Auth.IdServer.genruntimeconfig.cache
 C:\Users\achil\Projects\CRM\Auth\src\Auth.IdServer\obj\Debug\net8.0\ref\Auth.IdServer.dll
+C:\Users\achil\Projects\CRM\Auth\src\Auth.IdServer\obj\Debug\net8.0\Auth.IdServer.sourcelink.json

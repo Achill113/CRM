@@ -13,6 +13,7 @@ using SimpleIdServer.OpenidFederation.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using SimpleIdServer.IdServer;
 using static SimpleIdServer.IdServer.Constants;
 
 namespace Auth.IdServer
@@ -172,7 +173,8 @@ namespace Auth.IdServer
         {
             SimpleIdServer.IdServer.Constants.StandardUsers.AdministratorUser,
             SimpleIdServer.IdServer.Constants.StandardUsers.AdministratorReadonlyUser,
-            UserBuilder.Create("user", "password", "User").SetPicture("https://cdn-icons-png.flaticon.com/512/149/149071.png").Build()
+            UserBuilder.Create("user", "password", "User").SetPicture("https://cdn-icons-png.flaticon.com/512/149/149071.png").Build(),
+            UserBuilder.Create("achill113", "password", "Alex Hill").SetFirstname("Alex").SetEmail("achill113@gmail.com").AddGroup(StandardGroups.AdministratorGroup).GenerateRandomTOTPKey().Build()
         };
 
         public static ICollection<Client> Clients => new List<Client>
